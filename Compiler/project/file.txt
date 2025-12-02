@@ -1,0 +1,40 @@
+when (x > 10) {
+    x = 10
+}
+otherwise {
+    x = 11.32
+}
+
+# Class definition
+universal class student {
+    universal void details(StrChar name, StrChar stID) {
+       # Input
+        input("Enter your name")
+        
+        # Print
+        display(name)
+        
+        # Return
+        return stID
+    }
+}
+
+# Try-catch example
+try {
+    display("No error")
+} 
+catch (error e) {
+    display(e)
+}
+finally{
+    display("Done")
+}
+
+# Child class
+universal class student extends university {
+    x = 10
+}
+
+# Object creation
+student s1 = new student()
+
